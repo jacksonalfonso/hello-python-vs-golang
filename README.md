@@ -1,4 +1,4 @@
-# hello Go vs Python
+# hello - Go vs Python
 Tenho estudado muito Python nos ultimos meses, e agora resolvi aprender GoLang, e como na primeira parte do curso da Alura que estou fazendo desenvolvemos um codigo para monitorar sites.
 
 Resolvi re-escrever em python a mesma rotina para ver as diferenças (básicas) levando em conta o meu conhecimento é claro.
