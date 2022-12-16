@@ -10,12 +10,17 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/google/uuid"
 )
 
 const monitoramentos = 3
 const delayMonitoramento = 5 * time.Second
 
 func main() {
+
+	uuid := uuid.New()
+	fmt.Println(uuid)
 
 	exibeIntroducao()
 

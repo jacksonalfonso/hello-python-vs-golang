@@ -1,10 +1,10 @@
 import os 
 import pandas as pd
-from time import sleep
+#from time import sleep
 import requests
 import logging
 import validators
-from datetime import datetime
+from datetime import datetime, time
 
 qtde_monitoramentos = 3
 delayMonitoramento = 5
@@ -67,7 +67,7 @@ def iniciarMonitoramento():
             print("Testando Site", i, ":", site)
             testaSiteOnline(site)
 
-        sleep(delayMonitoramento)
+        time.sleep(delayMonitoramento)
         print("")
 
     print("")
